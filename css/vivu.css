@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.anuong{
+	position: relative;
+	
+}
+.anuong .bg-anuong{
+display: none;
+	
+}
+@media(min-width: 1024px){
+	.anuong .bg-anuong{
+display: block;
+	
+}
+.anuong .xenghoa{
+	position: absolute;
+	bottom: 8%;
+	left: 0;
+}
+.anuong .xemia{
+	position: absolute;
+	bottom: 9%;
+	left: 24%;
+}
+.anuong .hangrong{
+	position: absolute;
+	bottom: 10%;
+	left: 40%;
+}
+.anuong .giaikhat{
+	position: absolute;
+	bottom: 11%;
+	left: 55%;
+}
+.anuong .miaghim {
+    position: absolute;
+    bottom: 5%;
+    left: 69%;
+	z-index: 1;
+}
+.anuong .mucnuong{
+	position: absolute;
+	bottom: 4%;
+	right: -4%;
+}
+.anuong .nguoi{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+	}
+.dulich{
+	position: relative;
+}
+.dulich .bg-dulich{
+	display: none;
+}
+@media(min-width: 1024px){
+	.dulich .bg-dulich{
+		display: block;	
+}
+	.dulich .dinhdoclap{
+		position: absolute;
+		top:22%;
+		left: 29%;
+	}
+	.dulich .nhatho{
+		position: absolute;
+		top: 1%;
+		left:60%;
+		
+	}
+	.dulich .ducba{
+		position: absolute;
+		top: 12%;
+		left: 65%;
+		z-index: 2;
+	}
+	.dulich .buudien{
+		position: absolute;
+		top: 10%;
+		left: 65%;
+		z-index: 1;
+	}
+	.dulich .chobenthanh{
+		position: absolute;
+		bottom: 14%;
+		left: 40%;
+	}
+	.dulich .tax{
+		position: absolute;
+		bottom: 25%;
+		left: 65%;
+	}
+	.dulich .nhahat{
+		position: absolute;
+		top: 40%;
+		left: 80%;
+	}
+	.dulich .uyban{
+		position: absolute;
+		top: 33%;
+		left: 63%;
+	}
+}
+	
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: transparent;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  left: 20%;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

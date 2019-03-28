@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.phongtra-next{
+	width: 2%;
+	height: auto;
+	position: absolute;
+	top: 40%;
+	right: -100px;
+}
+.phongtra-prev{
+	width: 2%;
+	height: auto;
+	position: absolute;
+	top: 40%;
+	left: -100px;
+}
+.music{
+	
+}
+.music .info{
+	background-image: url('../images/phongtra/Rectangle 4.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.dia1{
+	margin: 0;
+	position: absolute;
+	top: 7%;
+	left: 4%;
+}
+.bia{
+	max-width: 27%; 
+	height: auto;
+	margin: 0 7px;
+	transition: all ease-in 0.2s;
+	cursor: pointer;
+}
+.bia:hover{
+	transform: scale(1.1)
+}
+.dia2{
+	margin: 0;
+	position: absolute;
+	top: 40%;
+	left: 4%;
+}
