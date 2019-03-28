@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css" >
 	<!-- Main CSS -->
 	<link href="css/main.css" rel="stylesheet" type="text/css">
+	
 
 </head> 
 
@@ -49,30 +50,35 @@
 						  NGẪM
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-						  <a class="dropdown-item" href="#">Action</a>
-						  <a class="dropdown-item" href="#">Another action</a>
-						  <div class="dropdown-divider"></div>
-						  <a class="dropdown-item" href="#">Something else here</a>
+						  <a class="dropdown-item" href="phongtra.html">Phòng Trà</a>
+						  <a class="dropdown-item" href="cine.html">Ci-ne</a>
+						  <a class="dropdown-item" href="vanhoc.html">Văn học</a>
 						</div>
 					  </li>
 					</ul>
 					</div>
 				<div class="col-lg-2"><a href="index.html"><img src="images/home/Asset 3.png" class="img-fluid" style="max-width: 130px;" alt=""></a></div>
 				<div class="col-lg-5">
-						<ul class="nav">
-							
+						<ul class="nav">					
 						
-						  <li class="nav-item">
-						<a class="nav-link active" href="cachsong.html">CÁCH SỐNG</a>
-					  </li>
+						<li class="nav-item">
+							<a class="nav-link active" href="cachsong.html">CÁCH SỐNG</a>
+						</li>
 					  <li class="nav-item">
 						<a class="nav-link" href="anchoi.html">ĂN CHƠI</a>
 					  </li>
-					  <li class="nav-item">
-						<a class="nav-link" href="thuvien.html">THƯ VIỆN</a>
+					 	<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							  THƯ VIỆN
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+							  <a class="dropdown-item" href="thuvienanh.html">Thư viện ảnh</a>
+							  <a class="dropdown-item" href="thuvienphim.html">Thư viện phim</a>
+							</div>
 					  </li>
+							
 					 <li class="nav-item">
-						<a class="nav-link" href="#">ĐĂNG NHẬP</a>
+						<a class="nav-link" href="login.html">ĐĂNG NHẬP</a>
 					  </li>
 					</ul>
 				</div>
@@ -102,10 +108,14 @@
 							<a href="index.html" data-id="1" class="">TRANG CHỦ</a>
 							<a href="saigon.html" data-id="2" class="">SÀI GÒN</a>
 							<a href="vivu.html" data-id="3" class="">VIVU</a>
-							<a href="ngam.html" data-id="4" class="">NGẪM</a>
+							<a href="phongtra.html" data-id="3" class="">PHÒNG TRÀ</a>
+							<a href="cine.html">CI-NE</a>
+							<a href="vanhoc.html">VĂN HỌC</a>
+					
 							<a href="cachsong.html" data-id="5" class="">CÁCH SỐNG</a>
 							<a href="anchoi.html" data-id="5" class="">ĂN CHƠI</a>
-							<a href="thuvien.html" data-id="5" class="">THƯ VIỆN</a>
+							<a href="thuvienanh.html">THƯ VIỆN ẢNH</a>
+							<a href="thuvienphim.html">THƯ VIỆN PHIM</a>
 							<a href="login.html" data-id="5" class="">ĐĂNG NHẬP</a>
 							
 						</nav>
@@ -129,28 +139,38 @@
 			
 		</div>
 	</section>
+	<!-- SEARCH BUTTON -->
+	<div class="search-mobi">
+	<form action="" autocomplete="on">
+  <input id="search" name="search" type="text" placeholder="What're we looking for ?">
+	<input id="search_submit" value="Rechercher" type="submit">
+  </form>
+		</div>
+	<!-- END SEARCH -->
 	<!-- Page Start -->
 	<section class="banner1">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-8 col-sm-8 col-12">
+				<div class="col-lg-8 col-sm-8 col-12 wow fadeInLeft">
 
 					<div class="saigon">
 					<img src="images/home/saigon.png" alt="" class="img-fluid bg">
-						<div class="text">
-							<h1>SÀI GÒN?</h1>
+						
+							<div class="text">
+							<a href="saigon.html"><h1 style="font-size: 50px" class="vivu">SÀI GÒN?</h1></a>
 							<p>Sài Gòn, nơi thành phố tưởng như không bao giờ ngưng lại, mà cứ biến động không ngừng. Ðường phố luôn rực sáng những ánh đèn và dòng người nối theo nhau đi về mọi ngả. Nhưng cho dù các ngã rẽ ấy dừng ở đâu thì vẫn có một điểm chung trong lòng mỗi người dân Sài Gòn: hướng về nguồn cội - thành phố tuổi 300.</p>
 							<a href="saigon.html" class="float-right mr-2"><span>Xem Thêm &rarr; </span></a>
 						</div>
+						
 					</div>
 
 
 				</div>
-				<div class="col-lg-4 col-sm-4 col-12">
+				<div class="col-lg-4 col-sm-4 col-12 wow fadeInRight">
 					<div class="anngon">
 						<img src="images/home/an ngon.png" alt="" class="img-fluid bg">
 						<div class="text">
-						<h1>VI VU</h1>
+						<a href="vivu.html"><h1 class="vivu">VI VU</h1></a>
 						<a href="vivu.html"><img  src="images/home/ganhhangrong.png" class="img-fluid vivu" style="min-width: 100%" alt=""></a>
 						</div>
 					</div>
@@ -163,47 +183,52 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-8">
 					<div class="row">
-						<div class="col-lg-6 col-md-6">
+						<div class="col-lg-6 col-md-6 wow fadeIn">
 							<div class="title">
 								<img src="images/home/tagmenu2.png" alt="" style="max-width: 70%" class="img-fluid bg">
-								<h1>CÁCH SỐNG</h1>
+								<a href="cachsong.html"><h1 style="left: 20%" class="vivu">CÁCH SỐNG</h1></a>
 							</div>
 						</div>
 						
 					</div>
 					<div class="row">
-						<div class="col-lg-6 col-md-6">
+						<div class="col-lg-6 col-md-6 wow fadeInLeft">
 							<div class="cachsong">
 								<img src="images/home/baivietcachsong.png" class="img-fluid bg" alt="">
 								<div class="content">
-									<img src="images/home/xelam.png" class="img-fluid " style="max-width: 90%;" alt="">
-									<h2 style="text-align: center">XE CÔNG CỘNG CỦA NGƯỜI <br> BÌNH DÂN SÀI GÒN XƯA</h2>
+									<a href="cachsong-post2.html"><img src="images/home/xelam.png" class="img-fluid vivu" style="max-width: 90%;" alt=""></a>
+									<a href="cachsong-post2.html"><h2 style="text-align: center" class="vivu">XE CÔNG CỘNG CỦA NGƯỜI <br> BÌNH DÂN SÀI GÒN XƯA</h2></a>
 									<p>Bóng dáng xe Lam không còn xuất hiện trên đường, song
 									loại xe 3 bánh với tiếng nổ “bành bành” từng là một phần cuộc sống của người Sài Gòn xưa.</p>
-										<a href="cachsong-post1.html"><span class="float-right mr-2"> Xem thêm &rarr; </span></a>
+										<a href="cachsong-post2.html"><span class="float-right mr-2"> Xem thêm &rarr; </span></a>
 									</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
+						<div class="col-lg-6 col-md-6 wow fadeInLeft">
 							<div class="cachsong">
 								<img src="images/home/baivietcachsong.png" class="img-fluid bg" alt="">
 								<div class="content">
-									<img src="images/home/thanhhang.png" class="img-fluid " style="max-width: 45%;" alt="">
-									<h2 style="text-align: center">NHỮNG NHAN SẮC NỔI TIẾNG <br> SÀI GÒN XƯA</h2>
+									<a href="cachsong-post1.html"><img src="images/home/thanhhang.png" class="img-fluid vivu" style="max-width: 65%;margin-left: 25%" alt=""></a>
+									<a href="cachsong-post1.html">
+									<h2 style="text-align: center" class="vivu">NHỮNG NHAN SẮC NỔI TIẾNG <br> SÀI GÒN XƯA</h2>
+										</a>
 									<p>Thẩm Thuý Hằng môi cánh hồng, mắt bồ câu, Thanh Nga thắt đáy lưng ong, Tuý Hồng thanh tao, duyên dáng... Là những giai nhân tuyệt sắc của Sài Gòn một thời</p>
-										<a href="cachsong-post2.html"><span class="float-right mr-2"> Xem thêm &rarr; </span></a>
+										<a href="cachsong-post1.html"><span class="float-right mr-2"> Xem thêm &rarr; </span></a>
 									</div>
 							</div>
 						</div>
 					</div>
 				</div>	
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-4 col-md-4 wow fadeInRight">
 						<div class="cachsong">
-								<img src="images/home/ci-ne.png" class="img-fluid " alt="">
+							<a href="phongtra.html">
+								<img src="images/home/ci-ne.png" class="img-fluid vivu" alt=""></a>
 								<div class="content">
-									<h2 style="text-align: center">PHÒNG TRÀ</h2>
-									<img src="images/home/maydiathan.png" class="img-fluid " style="max-width: 80%;" alt="">
-									
+									<a href="phongtra.html">
+									<h1 style="text-align: center; margin-top:7%" class="vivu">PHÒNG TRÀ</h1>
+										
+									<img src="images/home/maydiathan.png" class="img-fluid vivu" style="max-width: 65%; margin-top: 10%; margin-left: 18%" alt="">
+									</a>
 								
 									</div>
 							</div>
@@ -216,32 +241,35 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-8">
 					<div class="row">
-						<div class="col-lg-6 col-md-6">
+						<div class="col-lg-6 col-md-6 wow fadeIn">
 							<div class="title">
 								<img src="images/home/tagmenu2.png" alt="" style="max-width: 70%" class="img-fluid bg">
-								<h1>ĂN CHƠI</h1>
+								<h1 class="vivu">ĂN CHƠI</h1>
 							</div>
 						</div>
 						
 					</div>
 					<div class="row">
-						<div class="col-lg-6 col-md-6">
+						<div class="col-lg-6 col-md-6 wow fadeInLeft">
 							<div class="cachsong">
 								<img src="images/home/baivietcachsong.png" class="img-fluid bg" alt="">
 								<div class="content">
-									<img src="images/home/xevespa.png" class="img-fluid " style="max-width: 90%;" alt="">
-									<h2 style="text-align: center">NGƯỜI SÀI GÒN TRƯỚC 1975<br> ĐI XE MÁY GÌ?</h2>
+									<a href="anchoi-post1.html"><img src="images/home/xevespa.png" class="img-fluid vivu" style="max-width: 90%;" alt="">
+									<h2 style="text-align: center" class="vivu">NGƯỜI SÀI GÒN TRƯỚC 1975<br> ĐI XE MÁY GÌ?</h2>
+										</a>
 									<p>Có thể nói xe đạp và xe gắn máy là phương tiện di chuyển chiếm đa số  tại miền Nam trước 1975 và cho đến nay, xe gắn máy......</p>
 										<a href="anchoi-post1.html"><span class="float-right mr-2"> Xem thêm &rarr; </span></a>
 									</div>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-6">
+						<div class="col-lg-6 col-md-6 wow fadeInRight">
 							<div class="cachsong">
 								<img src="images/home/baivietcachsong.png" class="img-fluid bg" alt="">
 								<div class="content">
-									<img src="images/home/gai.png" class="img-fluid " style="max-width: 57%;" alt="">
-									<h2 style="text-align: center">PHONG CÁCH THỜI TRANG CỦA<br> PHỤ NỮ TRƯỚC 1975</h2>
+									<a href="anchoi-post2.html">
+									<img src="images/home/4cogai.png" class="img-fluid vivu" style="max-width: 57%;margin-left: 20%" alt="">
+									<h2 style="text-align: center" class="vivu">PHONG CÁCH THỜI TRANG CỦA<br> PHỤ NỮ TRƯỚC 1975</h2>
+										</a>
 									<p>Sài Gòn trong những bức ảnh xưa hiện lên với những quý cô xinh đẹp, phóng khoáng và chịu chơi… luôn khiến người ta thích thú.</p>
 										<a href="anchoi-post2.html"><span class="float-right mr-2"> Xem thêm &rarr; </span></a>
 									</div>
@@ -249,13 +277,14 @@
 						</div>
 					</div>
 				</div>	
-				<div class="col-lg-4 col-md-4">
+				<div class="col-lg-4 col-md-4 wow fadeInLeft">
 						<div class="cachsong">
 								<img src="images/home/ci-ne.png" class="img-fluid " alt="">
 								<div class="content">
-									<h2 style="text-align: center">CI NÊ</h2>
-									<img src="images/home/Tivi.png" class="img-fluid " style="max-width: 100%;" alt="">
-									
+									<a href="cine.html">
+									<h1 style="text-align: center; margin-top:10%" class="vivu">CI NÊ</h1>
+									<img src="images/home/Tivi.png" class="img-fluid vivu" style="max-width: 100%;" alt="">
+									</a>
 								
 									</div>
 							</div>
@@ -271,12 +300,12 @@
 						<div class="col-lg-4 col-md-4">
 							<div class="title">
 								<img src="images/home/tagmenu2.png" alt="" class="img-fluid bg">
-								<h1>THƯ VIỆN ẢNH</h1>
+								<h1 class="vivu" style="left: 15%">THƯ VIỆN ẢNH</h1>
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="thuvien">
+						<div class="thuvien wow fadeInLeft">
 						<img src="images/home/thu vien anh.png" class="img-fluid bg" alt="">
 						<div class="col-lg-12 content" style="max-width: 90%" >
 							<div class="owl-carousel" data-slider-id="1">
@@ -295,10 +324,10 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4">
-						<div class="ketnoi">
+						<div class="ketnoi wow fadeInRight">
 								<img src="images/home/ket noi.png" class="img-fluid " alt="">
 								<div class="content">
-									<h2 style="text-align: center">KẾT NỐI <br>CHÚNG TÔI</h2>
+									<h1 style="text-align: center;" class="vivu">KẾT NỐI <br>CHÚNG TÔI</h1>
 									<img src="images/home/ket noi img.png" class="img-fluid " style="max-width: 100%;" alt="">
 									
 								
@@ -343,7 +372,9 @@
 
 </footer>
 	
-	
+		<!-- Back to top button -->
+	<a href="javascript:" id="return-to-top"><img src="images/home/move on top.png" class="img-fluid"  alt=""></a>
+		<!-- En back to top -->
 	
 	
 <!-- Bootstrap Script -->
