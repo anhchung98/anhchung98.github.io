@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.timeline{
+	
+}
+
+.descript h2{
+	color:#a21f27;
+		text-align: center;
+	
+}
+@media (min-width:768px){
+.descript{
+
+	margin: 40px 0px;
+	text-align: center;
+}
+
+
+.kinhthanh{
+	margin-top: 80px;
+}
+.linh{
+	margin-top: 80px;
+}
+.giadinh{
+	margin: 0 40px;
+}
+
+.dinhdoclap{
+	margin-top: 30px;
+}
+.benthanh{
+	margin-top: -200px;
+}
+.honngoc{
+		margin-top: -150px;
+		z-index: -1;
+		transform: rotate(-15deg)
+}
+.baque{
+		margin-top: -150px;
+		z-index: -1;
+		transform: rotate(15deg)
+}
+	}

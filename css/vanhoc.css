@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.bgsach{
+	position: relative;
+	
+}
+.sach{
+	position: absolute;
+	
+	top:20%;
+	left:30%;
+	z-index: 1;
+	cursor: pointer;
+	transition: all ease-in 0.2s;
+}
+.title{
+	position: absolute;
+	bottom: 20%;
+	left: 30%;
+}
+.des{
+	position: absolute;
+	bottom: 12%;
+	left: 30%;
+}
+.sach:hover{
+	transform: scale(1.1)
+}

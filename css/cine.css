@@ -1,0 +1,24 @@
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff; 
+    background-color: transparent!important;
+	
+}
+.menuphu .nav-item{
+	padding-left: 125px;
+	
+}
+
+.modal-dialog {
+    max-width: 500px;
+    margin: 1.75 auto!important;
+}
+.title button{
+	background-color: transparent;
+	border: none;
+	color: black;
+}
+.title button:hover{
+	background-color: transparent;
+	border: none;
+	color: blue
+}
